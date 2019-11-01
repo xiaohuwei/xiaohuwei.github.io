@@ -983,7 +983,7 @@ blockquote {
 }
 @media screen and (min-width: 900px) {
   #aside_content .card_widget {
-    margin-right: 15px;
+    margin-left: 15px;
   }
 }
 .category-content ol,
@@ -3737,23 +3737,6 @@ img:hover {
 .flink:hover {
   -webkit-box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
   box-shadow: 0 4px 12px 12px rgba(7,17,27,0.15);
-}
-@media screen and (min-width: 900px) {
-  #recent-posts,
-  #page,
-  .category-content,
-  #archive,
-  .tag-cloud,
-  .flink,
-  #tag,
-  #category {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -o-box-ordinal-group: 2;
-    -ms-flex-order: 2;
-    -webkit-order: 2;
-    order: 2;
-  }
 }
 @media screen and (max-width: 900px) {
   #page,
